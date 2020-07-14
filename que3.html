@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+      
+<head> 
+    <title> 
+        Third Question
+    </title>
+    <h1>
+        Print the date using function
+    </h1> 
+</head> 
+  
+<body> 
+    <p> 
+        Current Date is:  
+        <span class="output"></span> 
+    </p> 
+  
+    <button onclick="getCurrentDate()"> 
+        Get current Date 
+    </button>
+    
+    <script type="text/javascript"> 
+        function getCurrentDate() { 
+            let date = new Date().toDateString(); 
+  
+            document.querySelector('.output').textContent 
+                    = date; 
+        } 
+    </script> 
+</body> 
+  
+</html>
